@@ -24,7 +24,13 @@ namespace DecimalToBinary
                 a[i] = number % 2;
                 number = number / 2;
             }
-            
+            Console.Write("Binary of the givien number is: ");
+
+            //again use loop to print the binary number 
+            for (i = i - 1; i >= 0; i--)
+            {
+                Console.Write(a[i]);
+            }
         }
     }
 }
