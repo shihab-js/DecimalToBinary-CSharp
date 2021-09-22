@@ -6,6 +6,8 @@ namespace DecimalToBinary
     {
         static void Main(string[] args)
         {
+            //declare the necessary variables
+            int number, i;
             
         }
     }
