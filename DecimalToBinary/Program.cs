@@ -18,6 +18,13 @@ namespace DecimalToBinary
             //get input from user
             number = int.Parse(Console.ReadLine());
 
+            //create a for loop to continue the program until number is greater than 0
+            for (i = 0; number > 0; i++)
+            {
+                a[i] = number % 2;
+                number = number / 2;
+            }
+            
         }
     }
 }
